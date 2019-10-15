@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg store-header">
+  <div class="row justify-content-center w-100">
+    <form class="card card-sm">
+      <div class="card-body row no-gutters align-items-center">
+        <div class="col">
+          <input
+            class="form-control form-control-lg form-control-borderless"
+            type="text"
+            placeholder="Search products by name"
+            [(ngModel)]="searchText"
+            name="searchText"
+          />
+        </div>
+        <div class="col-auto">
+          <button class="btn btn-primary border-0" (click)="onSearchProducts()">
+            <i class="fas fa-search text-white"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</nav>

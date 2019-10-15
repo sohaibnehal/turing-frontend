@@ -1,0 +1,75 @@
+<div class="card cart-calculation  bg-light">
+  <div class="card-body">
+    <h3>My Cart ({{ cart$.length }})</h3>
+    <div class="row mb-2 mt-4" *ngFor="let item of cart$; let i = index">
+      <div class="col-4">
+        <img class="img-responsive" src="{{ item.product.image }}" />
+      </div>
+      <div class="col-4">
+        <h4 class="product-name">
+          <strong>{{ item.product.name }}</strong>
+        </h4>
+        <h4>
+          <small>{{ item.product.description }}</small>
+        </h4>
+      </div>
+      <div class="col-4">
+        <div class="col-12 text-left">
+          <h6>
+            Price:
+            <strong class="branded-text">{{
+              item.product.discounted_price
+            }}</strong>
+          </h6>
+          <h6>
+            Quantity:
+            <span (click)="onUpdateQuantity(item, i, 'add')">
+              <i class="fas fa-plus-circle color-icon mr-2 pointer"></i>
+            </span>
+            <strong class="branded-text">{{ item.quantity }}</strong>
+            <span (click)="onUpdateQuantity(item, i, 'sub')">
+              <i class="fas fa-minus-circle color-icon ml-2 pointer"></i
+            ></span>
+          </h6>
+          <h6>
+            Size:
+            <span
+              *ngFor="let size of item.product.attributes.Size"
+              class="mr-2 pointer size-icon"
+              [ngClass]="{
+                'size-icon-selected ': item.attributes.Size === size._id
+              }"
+              (click)="onUpdateAttribute(size._id, 'Size', item, i)"
+            >
+              {{ size.value }}
+            </span>
+          </h6>
+          <h6>
+            Color:
+            <span
+              class="mr-2"
+              *ngFor="let color of item.product.attributes.Color"
+              [ngClass]="{
+                'color-icon-selected ': item.attributes.Color === color._id
+              }"
+              (click)="onUpdateAttribute(color._id, 'Color', item, i)"
+            >
+              <i
+                class="fas fa-circle color-icon pointer"
+                [ngStyle]="{ color: color.value }"
+              >
+              </i>
+            </span>
+          </h6>
+          <button
+            type="button"
+            class="btn btn-link btn-xs"
+            (click)="onRemoveCartItem(i)"
+          >
+            <i class="fas fa-trash-alt"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

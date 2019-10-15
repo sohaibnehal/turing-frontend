@@ -1,0 +1,40 @@
+<div>
+  <app-header [cart$]="cart$ | async"></app-header>
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col">
+        <button class="btn btn-primary mb-4 border-0" (click)="backToStore()">
+          <i class="fas fa-arrow-left"></i>
+          Back to Products
+        </button>
+        <!-- <h3>My Cart ({{ (cart$ | async).length }})</h3> -->
+      </div>
+    </div>
+    <div class="row mt-2" *ngIf="loading$ | async">
+      <div class="col col-12 text-center">
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-lg-9">
+        <app-checkout-items
+          [cart$]="cart$ | async"
+          [isLoading$]="loading$"
+          (removeCartItem)="removeCartItem($event)"
+          (updateAttribute)="updateAttribute($event)"
+          (updateQuantity)="updateQuantity($event)"
+        ></app-checkout-items>
+      </div>
+      <div class="col-lg-3">
+        <app-checkout-calculation
+          [cart$]="cart$"
+          [shipping$]="shipping$ | async"
+          [taxes$]="taxes$ | async"
+          [isLoading$]="loading$"
+        ></app-checkout-calculation>
+      </div>
+    </div>
+  </div>
+</div>

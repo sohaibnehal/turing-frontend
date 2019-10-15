@@ -1,0 +1,37 @@
+<div class="card cart-calculation  bg-light" style="width: 18rem;">
+  <div class="card-body">
+    <p class="card-text" *ngFor="let item of this.cart">
+      {{ item.product.name }}: {{ item.product.discounted_price }}
+    </p>
+    <p>
+      Shipping: {{ this.shippingCost }}
+      <select
+        class="form-control"
+        name="shipping"
+        [(ngModel)]="selectedShippingOption"
+        (change)="shippingOptionChanged()"
+      >
+        <option value="">Select the shipping option</option>
+        <option *ngFor="let option of shipping$" value="{{ option._id }}">
+          {{ option.shippingRegionId.region }} - {{ option.type }}
+        </option>
+      </select>
+    </p>
+    <p>
+      Tax: {{ this.taxCost }}%
+      <select
+        class="form-control"
+        name="tax"
+        [(ngModel)]="selectedTaxOption"
+        (change)="taxOptionChanged()"
+      >
+        <option value="">Select the applicable tax</option>
+        <option *ngFor="let option of taxes$" value="{{ option._id }}">
+          {{ option.type }} - {{ option.percentage }}
+        </option>
+      </select>
+    </p>
+    <p class="card-text">......................</p>
+    <h6>Order Total: {{ totalAmount | currency }}</h6>
+  </div>
+</div>

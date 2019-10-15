@@ -1,0 +1,23 @@
+<div class="list-group left-panel">
+  <h6
+    class="all-c pointer"
+    (click)="onFetchProductsOfCategory()"
+    [class.selected-category]="selectedCategory === ''"
+  >
+    ALL PRODUCTS
+  </h6>
+  <div
+    class="department-container ml-1 mt-3"
+    *ngFor="let item of (categories$ | keyvalue)"
+  >
+    <h5>{{ item.key }}</h5>
+    <div
+      class="pointer ml-1 mt-3"
+      [class.selected-category]="selectedCategory === category._id"
+      *ngFor="let category of categories$[item.key]"
+      (click)="onFetchProductsOfCategory(category)"
+    >
+      <h6>{{ category.name }}</h6>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,774 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/sohaibnehal/Workplace/Store-apps/turing-full-stack",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2019-03-16 19:00:13",
+            "filesum": 126,
+            "codesum": 13062,
+            "commentsum": 134,
+            "blanksum": 263,
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": ".editorconfig"
+                },
+                {
+                    "blank": 5,
+                    "code": 22,
+                    "comment": 21,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 127,
+                    "comment": 0,
+                    "filename": "angular.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 23,
+                    "comment": 2,
+                    "filename": "e2e/protractor.conf.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": "e2e/src/app.e2e-spec.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "e2e/src/app.po.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "e2e/tsconfig.e2e.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 10468,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 13,
+                    "code": 14,
+                    "comment": 5,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src/app/app-routing.module.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/app/app.component.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src/app/app.component.html"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "src/app/app.component.spec.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src/app/app.component.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/app/app.module.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src/app/app.routes.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/assets/.gitkeep"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 1,
+                    "filename": "src/browserslist"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/environments/environment.prod.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 11,
+                    "filename": "src/environments/environment.ts"
+                },
+                {
+                    "filename": "src/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "src/index.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 29,
+                    "comment": 3,
+                    "filename": "src/karma.conf.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 36,
+                    "comment": 4,
+                    "filename": "src/libs/app/app.module.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 16,
+                    "comment": 2,
+                    "filename": "src/libs/app/app.routes.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/cart-widget/cart-widget.component.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/cart-widget/cart-widget.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/cart-widget/cart-widget.component.spec.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/cart-widget/cart-widget.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 37,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-calculation/checkout-calculation.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-calculation/checkout-calculation.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-calculation/checkout-calculation.component.spec.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-calculation/checkout-calculation.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-items/checkout-items.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-items/checkout-items.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-items/checkout-items.component.spec.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/checkout-items/checkout-items.component.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/index.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/left-panel/left-panel.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/left-panel/left-panel.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/left-panel/left-panel.component.spec.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/left-panel/left-panel.component.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-detail/product-detail.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-detail/product-detail.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-detail/product-detail.component.spec.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-detail/product-detail.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-items/product-items.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-items/product-items.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/product-items/product-items.component.spec.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 26,
+                    "comment": 1,
+                    "filename": "src/libs/app/components/product-items/product-items.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/search-bar/search-bar.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/search-bar/search-bar.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/search-bar/search-bar.component.spec.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src/libs/app/components/search-bar/search-bar.component.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src/libs/app/config/config.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/checkout/checkout.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/checkout/checkout.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/checkout/checkout.component.spec.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/checkout/checkout.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/dashboard/dashboard.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/dashboard/dashboard.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/dashboard/dashboard.component.spec.ts"
+                },
+                {
+                    "blank": 9,
+                    "code": 75,
+                    "comment": 1,
+                    "filename": "src/libs/app/containers/dashboard/dashboard.component.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/header/header.component.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/header/header.component.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/header/header.component.spec.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/header/header.component.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/libs/app/containers/index.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Cart.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Category.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Department.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/GroupedCategory.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 1,
+                    "filename": "src/libs/app/models/index.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Me.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 2,
+                    "filename": "src/libs/app/models/Product.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/ProductData.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Shipping.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/ShippingOptions.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/ShippingRegion.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/Tax.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "src/libs/app/models/User.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/auth-guard.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/auth.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/categories.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/departments.service.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/index.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/products.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/shipping.service.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/storage.service.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src/libs/app/services/tax.service.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 18,
+                    "comment": 2,
+                    "filename": "src/libs/app/store/actions/cart.action.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src/libs/app/store/actions/categories.action.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 29,
+                    "comment": 1,
+                    "filename": "src/libs/app/store/actions/index.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 33,
+                    "comment": 2,
+                    "filename": "src/libs/app/store/actions/products.action.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src/libs/app/store/actions/shipping.action.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 2,
+                    "filename": "src/libs/app/store/actions/tax.action.ts"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/cart.effects.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 48,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/categories.effects.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/index.ts"
+                },
+                {
+                    "blank": 6,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/products.effects.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/shipping.effects.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/effects/tax.effects.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/index.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/interface/state.interface.ts"
+                },
+                {
+                    "blank": 5,
+                    "code": 52,
+                    "comment": 5,
+                    "filename": "src/libs/app/store/reducers/app.reducer.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/cart.reducer.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/categories.reducer.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/index.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 1,
+                    "filename": "src/libs/app/store/reducers/initial-state.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/products.reducer.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/shipping.reducer.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/reducers/tax.reducer.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "src/libs/app/store/selectors/app.selectors.ts"
+                },
+                {
+                    "blank": 2,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "src/libs/app/store/selectors/index.ts"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src/main.ts"
+                },
+                {
+                    "blank": 7,
+                    "code": 1,
+                    "comment": 56,
+                    "filename": "src/polyfills.ts"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src/sass/mixins.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "src/sass/styles.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "src/sass/variables.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 4,
+                    "filename": "src/test.ts"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src/tsconfig.app.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src/tsconfig.spec.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "src/tslint.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "tsconfig.json"
+                },
+                {
+                    "blank": 7,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "tslint.json"
+                }
+            ]
+        }
+    ]
+}

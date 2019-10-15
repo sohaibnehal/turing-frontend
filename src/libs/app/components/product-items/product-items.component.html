@@ -1,0 +1,29 @@
+<div>
+  <div class="row">
+    <div
+      class="col-lg-4 col-md-6 mb-4"
+      *ngFor="let product of productsData$?.products"
+    >
+      <div class="card h-100" (click)="onOpenProductDetailModel(product)">
+        <a> <img class="card-img-top" src="{{ product.image }}" alt=""/></a>
+        <div class="card-body text-center">
+          <h5>{{ product.name }}</h5>
+          <span class="text-cut">{{ product.price | currency }}</span>
+          <h6 class="item-price">{{ product.discounted_price | currency }}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <ngb-pagination
+        class="d-flex justify-content-center"
+        [page]="productsData$?.productsPagination.currentPage"
+        [pageSize]="10"
+        [collectionSize]="productsData$?.productsPagination.total"
+        (pageChange)="onPageChange($event)"
+      >
+      </ngb-pagination>
+    </div>
+  </div>
+</div>

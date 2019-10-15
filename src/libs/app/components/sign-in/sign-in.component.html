@@ -1,0 +1,169 @@
+<div role="document" class="modal-dialog">
+  <div class="modal-content">
+    <a
+      class="text-right mr-3 pointer"
+      (click)="activeModal.dismiss('Cross click')"
+    >
+      <i class="fas fa-times" aria-label="Close"></i>
+    </a>
+    <div class="modal-body" *ngIf="view === 'signin'">
+      <h4>Login with</h4>
+      <div class="text-center social-sign-in-icon">
+        <i class="fab fa-facebook  facebook mr-4"></i>
+        <i class="fab fa-twitter social-sign-in-icon twitter ml-4"></i>
+      </div>
+      <h4 class="text-center mt-3 mb-3">or</h4>
+      <div class="container">
+        <form
+          class="form-signin"
+          [formGroup]="signinform"
+          (ngSubmit)="onSignin()"
+        >
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input
+            type="text"
+            id="username"
+            formControlName="username"
+            class="form-control"
+            [class.is-invalid]="
+              signinform.controls.username.dirty &&
+              signinform.controls.username.errors
+            "
+            placeholder="Username or Email"
+            required=""
+            autofocus=""
+            autocomplete="off"
+          />
+          <br />
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            [class.is-invalid]="
+              signinform.controls.password.dirty &&
+              signinform.controls.password.errors
+            "
+            formControlName="password"
+            placeholder="Password"
+            required=""
+            autocomplete="off"
+          />
+          <button
+            [disabled]="isLoading$ | async"
+            class="btn btn-primary btn-block border-0 mt-4 mb-2"
+            type="submit"
+          >
+            Sign in
+          </button>
+          <small class="text-danger" *ngIf="!signinform.valid">
+            Please enter valid username and password.
+          </small>
+          <div class="row mt-2">
+            <div class="col col-12 text-center">
+              <div
+                class="spinner-border text-secondary"
+                role="status"
+                *ngIf="(isLoading$ | async)"
+              >
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-body" *ngIf="view === 'register'">
+      <h4>Register</h4>
+      <div class="container mt-3">
+        <form
+          class="form-register"
+          [formGroup]="registerform"
+          (ngSubmit)="onRegister()"
+        >
+          <label for="inputName" class="sr-only">Username</label>
+          <input
+            type="text"
+            id="username"
+            class="form-control"
+            [class.is-invalid]="
+              registerform.controls.username.dirty &&
+              registerform.controls.username.errors
+            "
+            formControlName="username"
+            placeholder="Username"
+            required=""
+            autocomplete="off"
+          />
+          <br />
+          <label for="inputEmail" class="sr-only">Email address</label>
+          <input
+            type="text"
+            id="email"
+            class="form-control"
+            [class.is-invalid]="
+              registerform.controls.email.dirty &&
+              registerform.controls.email.errors
+            "
+            formControlName="email"
+            placeholder="Email"
+            required=""
+            autocomplete="off"
+          />
+          <br />
+          <label for="inputPassword" class="sr-only">Password</label>
+          <input
+            type="password"
+            id="password"
+            class="form-control"
+            [class.is-invalid]="
+              registerform.controls.password.dirty &&
+              registerform.controls.password.errors
+            "
+            formControlName="password"
+            placeholder="Password"
+            required=""
+            autocomplete="off"
+          />
+          <button
+            [disabled]="isLoading$ | async"
+            class="btn btn-primary btn-block border-0 mt-4 mb-2"
+            type="submit"
+          >
+            Register
+          </button>
+          <small class="text-danger" *ngIf="!registerform.valid">
+            Please enter username, email and password.
+          </small>
+          <div class="row mt-2">
+            <div class="col col-12 text-center">
+              <div
+                class="spinner-border text-secondary"
+                role="status"
+                *ngIf="(isLoading$ | async)"
+              >
+                <span class="sr-only">Loading...</span>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer ">
+      <h5 class="text-center" *ngIf="view === 'signin'">
+        Looking to&nbsp;<a
+          class="branded-text pointer"
+          (click)="view = 'register'"
+          >create an account?</a
+        >
+      </h5>
+      <h5 class="text-center" *ngIf="view === 'register'">
+        Already have an account?&nbsp;<a
+          class="branded-text pointer"
+          (click)="view = 'signin'"
+          >Sign in</a
+        >
+      </h5>
+    </div>
+  </div>
+</div>

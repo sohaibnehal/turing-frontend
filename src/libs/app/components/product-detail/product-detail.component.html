@@ -1,0 +1,75 @@
+<div role="document" class="modal-dialog">
+  <div class="modal-content">
+    <a
+      class="text-right mr-3 pointer"
+      (click)="activeModal.dismiss('Cross click')"
+    >
+      <i class="fas fa-times" aria-label="Close"></i>
+    </a>
+    <div class="modal-body">
+      <img
+        class="card-img-top mb-4"
+        src="{{ (product | async)?.image_2 }}"
+        alt=""
+      />
+
+      <h3>{{ (product | async)?.name }}</h3>
+      <span class="text-cut">{{ (product | async)?.price | currency }}</span>
+      <h5 class="item-price">
+        {{ (product | async)?.discounted_price | currency }}
+      </h5>
+      <p>{{ (product | async)?.description }}</p>
+      <div class="mb-2">
+        <h5>Quantity</h5>
+        <span>
+          <span (click)="updateQuantity('add')">
+            <i class="fas fa-plus-circle color-icon mr-2 pointer"></i>
+          </span>
+          {{ quantity }}
+          <span (click)="updateQuantity('sub')">
+            <i class="fas fa-minus-circle color-icon ml-2 pointer"></i
+          ></span>
+        </span>
+      </div>
+      <div class="mb-2">
+        <h5>Color</h5>
+        <span
+          class="mr-2"
+          *ngFor="let color of (product | async)?.attributes.Color"
+          [ngClass]="{ 'color-icon-selected ': attributes.Color === color._id }"
+          (click)="addAttribute(color._id, 'Color')"
+        >
+          <i
+            class="fas fa-circle color-icon pointer"
+            [ngStyle]="{ color: color.value }"
+          >
+          </i>
+        </span>
+      </div>
+      <div>
+        <h5>Size</h5>
+        <span
+          *ngFor="let size of (product | async)?.attributes.Size"
+          class="mr-2 pointer size-icon"
+          [ngClass]="{ 'size-icon-selected ': attributes.Size === size._id }"
+          (click)="addAttribute(size._id, 'Size')"
+        >
+          {{ size.value }}
+        </span>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button
+        type="button"
+        class="btn btn-primary border-0"
+        [disabled]="attributes.Size === '' || attributes.Color === ''"
+        (click)="onAddProductInCart()"
+      >
+        Add to cart
+      </button>
+      <small *ngIf="attributes.Size === '' || attributes.Color === ''"
+        >Please select size and color of the product</small
+      >
+    </div>
+  </div>
+</div>

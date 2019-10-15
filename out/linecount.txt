@@ -1,0 +1,138 @@
+===============================================================================
+EXTENSION NAME : linecount
+EXTENSION VERSION : 0.1.7
+-------------------------------------------------------------------------------
+count time : 2019-03-16 19:00:13
+count workspace : /Users/sohaibnehal/Workplace/Store-apps/turing-full-stack
+total files : 126
+total code lines : 13062
+total comment lines : 134
+total blank lines : 263
+
+.editorconfig, code is 11, comment is 1, blank is 2.
+.gitignore, code is 22, comment is 21, blank is 5.
+angular.json, code is 127, comment is 0, blank is 1.
+e2e/protractor.conf.js, code is 23, comment is 2, blank is 3.
+e2e/src/app.e2e-spec.ts, code is 18, comment is 1, blank is 4.
+e2e/src/app.po.ts, code is 9, comment is 0, blank is 2.
+e2e/tsconfig.e2e.json, code is 12, comment is 0, blank is 1.
+package-lock.json, code is 10468, comment is 0, blank is 0.
+package.json, code is 56, comment is 0, blank is 0.
+README.md, code is 14, comment is 5, blank is 13.
+src/app/app-routing.module.ts, code is 8, comment is 0, blank is 2.
+src/app/app.component.css, code is 0, comment is 0, blank is 0.
+src/app/app.component.html, code is 1, comment is 0, blank is 0.
+src/app/app.component.spec.ts, code is 31, comment is 0, blank is 4.
+src/app/app.component.ts, code is 7, comment is 0, blank is 1.
+src/app/app.module.ts, code is 24, comment is 0, blank is 5.
+src/app/app.routes.ts, code is 7, comment is 0, blank is 1.
+src/assets/.gitkeep, code is 0, comment is 0, blank is 0.
+src/browserslist, code is 10, comment is 1, blank is 1.
+src/environments/environment.prod.ts, code is 3, comment is 0, blank is 0.
+src/environments/environment.ts, code is 3, comment is 11, blank is 2.
+src/favicon.ico, it is a binary file.
+src/index.html, code is 19, comment is 0, blank is 1.
+src/karma.conf.js, code is 29, comment is 3, blank is 1.
+src/libs/app/app.module.ts, code is 36, comment is 4, blank is 7.
+src/libs/app/app.routes.ts, code is 16, comment is 2, blank is 3.
+src/libs/app/components/cart-widget/cart-widget.component.html, code is 13, comment is 0, blank is 0.
+src/libs/app/components/cart-widget/cart-widget.component.scss, code is 16, comment is 0, blank is 1.
+src/libs/app/components/cart-widget/cart-widget.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/cart-widget/cart-widget.component.ts, code is 18, comment is 0, blank is 5.
+src/libs/app/components/checkout-calculation/checkout-calculation.component.html, code is 37, comment is 0, blank is 0.
+src/libs/app/components/checkout-calculation/checkout-calculation.component.scss, code is 0, comment is 0, blank is 0.
+src/libs/app/components/checkout-calculation/checkout-calculation.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/checkout-calculation/checkout-calculation.component.ts, code is 51, comment is 0, blank is 6.
+src/libs/app/components/checkout-items/checkout-items.component.html, code is 66, comment is 0, blank is 0.
+src/libs/app/components/checkout-items/checkout-items.component.scss, code is 0, comment is 0, blank is 0.
+src/libs/app/components/checkout-items/checkout-items.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/checkout-items/checkout-items.component.ts, code is 47, comment is 0, blank is 4.
+src/libs/app/components/index.ts, code is 23, comment is 0, blank is 2.
+src/libs/app/components/left-panel/left-panel.component.html, code is 23, comment is 0, blank is 0.
+src/libs/app/components/left-panel/left-panel.component.scss, code is 10, comment is 0, blank is 0.
+src/libs/app/components/left-panel/left-panel.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/left-panel/left-panel.component.ts, code is 22, comment is 0, blank is 4.
+src/libs/app/components/product-detail/product-detail.component.html, code is 74, comment is 0, blank is 1.
+src/libs/app/components/product-detail/product-detail.component.scss, code is 13, comment is 0, blank is 0.
+src/libs/app/components/product-detail/product-detail.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/product-detail/product-detail.component.ts, code is 44, comment is 0, blank is 5.
+src/libs/app/components/product-items/product-items.component.html, code is 29, comment is 0, blank is 0.
+src/libs/app/components/product-items/product-items.component.scss, code is 6, comment is 0, blank is 0.
+src/libs/app/components/product-items/product-items.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/product-items/product-items.component.ts, code is 26, comment is 1, blank is 5.
+src/libs/app/components/search-bar/search-bar.component.html, code is 22, comment is 0, blank is 0.
+src/libs/app/components/search-bar/search-bar.component.scss, code is 17, comment is 0, blank is 0.
+src/libs/app/components/search-bar/search-bar.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/components/search-bar/search-bar.component.ts, code is 34, comment is 0, blank is 4.
+src/libs/app/config/config.ts, code is 8, comment is 0, blank is 1.
+src/libs/app/containers/checkout/checkout.component.html, code is 36, comment is 0, blank is 0.
+src/libs/app/containers/checkout/checkout.component.scss, code is 3, comment is 0, blank is 0.
+src/libs/app/containers/checkout/checkout.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/containers/checkout/checkout.component.ts, code is 47, comment is 0, blank is 6.
+src/libs/app/containers/dashboard/dashboard.component.html, code is 34, comment is 0, blank is 0.
+src/libs/app/containers/dashboard/dashboard.component.scss, code is 0, comment is 0, blank is 0.
+src/libs/app/containers/dashboard/dashboard.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/containers/dashboard/dashboard.component.ts, code is 75, comment is 1, blank is 9.
+src/libs/app/containers/header/header.component.html, code is 6, comment is 0, blank is 0.
+src/libs/app/containers/header/header.component.scss, code is 0, comment is 0, blank is 0.
+src/libs/app/containers/header/header.component.spec.ts, code is 2, comment is 0, blank is 1.
+src/libs/app/containers/header/header.component.ts, code is 11, comment is 0, blank is 3.
+src/libs/app/containers/index.ts, code is 11, comment is 0, blank is 2.
+src/libs/app/models/Cart.ts, code is 6, comment is 0, blank is 1.
+src/libs/app/models/Category.ts, code is 6, comment is 0, blank is 0.
+src/libs/app/models/Department.ts, code is 5, comment is 0, blank is 0.
+src/libs/app/models/GroupedCategory.ts, code is 4, comment is 0, blank is 0.
+src/libs/app/models/index.ts, code is 11, comment is 1, blank is 0.
+src/libs/app/models/Me.ts, code is 10, comment is 0, blank is 2.
+src/libs/app/models/Product.ts, code is 14, comment is 2, blank is 0.
+src/libs/app/models/ProductData.ts, code is 9, comment is 0, blank is 0.
+src/libs/app/models/Shipping.ts, code is 7, comment is 0, blank is 1.
+src/libs/app/models/ShippingOptions.ts, code is 11, comment is 0, blank is 1.
+src/libs/app/models/ShippingRegion.ts, code is 6, comment is 0, blank is 0.
+src/libs/app/models/Tax.ts, code is 5, comment is 0, blank is 0.
+src/libs/app/models/User.ts, code is 16, comment is 0, blank is 0.
+src/libs/app/services/auth-guard.service.ts, code is 20, comment is 0, blank is 4.
+src/libs/app/services/auth.service.ts, code is 21, comment is 0, blank is 3.
+src/libs/app/services/categories.service.ts, code is 30, comment is 0, blank is 3.
+src/libs/app/services/departments.service.ts, code is 24, comment is 0, blank is 3.
+src/libs/app/services/index.ts, code is 20, comment is 0, blank is 2.
+src/libs/app/services/products.service.ts, code is 39, comment is 0, blank is 3.
+src/libs/app/services/shipping.service.ts, code is 24, comment is 0, blank is 3.
+src/libs/app/services/storage.service.ts, code is 27, comment is 0, blank is 5.
+src/libs/app/services/tax.service.ts, code is 18, comment is 0, blank is 3.
+src/libs/app/store/actions/cart.action.ts, code is 18, comment is 2, blank is 2.
+src/libs/app/store/actions/categories.action.ts, code is 17, comment is 2, blank is 5.
+src/libs/app/store/actions/index.ts, code is 29, comment is 1, blank is 2.
+src/libs/app/store/actions/products.action.ts, code is 33, comment is 2, blank is 7.
+src/libs/app/store/actions/shipping.action.ts, code is 17, comment is 2, blank is 5.
+src/libs/app/store/actions/tax.action.ts, code is 17, comment is 2, blank is 5.
+src/libs/app/store/effects/cart.effects.ts, code is 32, comment is 0, blank is 4.
+src/libs/app/store/effects/categories.effects.ts, code is 48, comment is 0, blank is 5.
+src/libs/app/store/effects/index.ts, code is 17, comment is 0, blank is 2.
+src/libs/app/store/effects/products.effects.ts, code is 79, comment is 0, blank is 6.
+src/libs/app/store/effects/shipping.effects.ts, code is 39, comment is 0, blank is 5.
+src/libs/app/store/effects/tax.effects.ts, code is 36, comment is 0, blank is 5.
+src/libs/app/store/index.ts, code is 3, comment is 0, blank is 0.
+src/libs/app/store/interface/state.interface.ts, code is 25, comment is 0, blank is 1.
+src/libs/app/store/reducers/app.reducer.ts, code is 52, comment is 5, blank is 5.
+src/libs/app/store/reducers/cart.reducer.ts, code is 28, comment is 0, blank is 2.
+src/libs/app/store/reducers/categories.reducer.ts, code is 21, comment is 0, blank is 1.
+src/libs/app/store/reducers/index.ts, code is 8, comment is 0, blank is 1.
+src/libs/app/store/reducers/initial-state.ts, code is 14, comment is 1, blank is 1.
+src/libs/app/store/reducers/products.reducer.ts, code is 41, comment is 0, blank is 1.
+src/libs/app/store/reducers/shipping.reducer.ts, code is 21, comment is 0, blank is 1.
+src/libs/app/store/reducers/tax.reducer.ts, code is 21, comment is 0, blank is 1.
+src/libs/app/store/selectors/app.selectors.ts, code is 44, comment is 1, blank is 3.
+src/libs/app/store/selectors/index.ts, code is 36, comment is 0, blank is 2.
+src/main.ts, code is 9, comment is 0, blank is 3.
+src/polyfills.ts, code is 1, comment is 56, blank is 7.
+src/sass/mixins.scss, code is 0, comment is 0, blank is 0.
+src/sass/styles.scss, code is 80, comment is 0, blank is 1.
+src/sass/variables.scss, code is 6, comment is 0, blank is 1.
+src/test.ts, code is 13, comment is 4, blank is 3.
+src/tsconfig.app.json, code is 10, comment is 0, blank is 1.
+src/tsconfig.spec.json, code is 15, comment is 0, blank is 3.
+src/tslint.json, code is 15, comment is 0, blank is 2.
+tsconfig.json, code is 20, comment is 0, blank is 2.
+tslint.json, code is 68, comment is 0, blank is 7.
+===============================================================================

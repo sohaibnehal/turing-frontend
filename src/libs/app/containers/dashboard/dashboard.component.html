@@ -1,0 +1,34 @@
+<div>
+  <app-header [cart$]="cart$ | async"></app-header>
+  <app-search-bar
+    [categoryId]="categoryIdSubject.asObservable()"
+    (fetchProductsBySearchKey)="fetchProductsBySearchKey($event)"
+    [isLoading$]="loading$"
+  ></app-search-bar>
+  <div class="container">
+    <div class="row mt-2" *ngIf="(loading$ | async)">
+      <div class="col col-12 text-center">
+        <div class="spinner-border text-secondary" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <div class="col-lg-3">
+        <app-left-panel
+          [categories$]="categories$ | async"
+          (fetchProductsByCategory)="fetchProductsByCategory($event)"
+          [isLoading$]="loading$"
+        ></app-left-panel>
+      </div>
+      <div class="col-lg-9">
+        <app-product-items
+          [productsData$]="productsData$ | async"
+          (openProductDetailModal)="openProductDetailModal($event)"
+          (fetchProductsByPageNumber)="fetchProductsByPageNumber($event)"
+          [isLoading$]="loading$"
+        ></app-product-items>
+      </div>
+    </div>
+  </div>
+</div>

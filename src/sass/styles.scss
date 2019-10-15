@@ -1,0 +1,75 @@
+@import './variables';
+@import './mixins';
+@import './toastr';
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  padding-top: 52px;
+}
+h3 {
+  font-size: 1.4rem !important;
+  color: $secondary-color !important;
+}
+h4 {
+  font-size: 1.2rem !important;
+}
+h5 {
+  font-size: 1rem !important;
+}
+h6 {
+  font-size: 0.8rem !important;
+}
+p {
+  color: $primary-color;
+  font-size: 0.75rem;
+}
+.store-header {
+  background: $brand-color;
+}
+.btn-primary {
+  background-color: $button_primary !important;
+  border-radius: 0 !important;
+}
+.btn-secondary {
+  background-color: $button_secondary !important;
+  border-radius: 0 !important;
+}
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.navbar {
+  padding: 1.5rem 1rem !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.item-price,
+.selected-category,
+.branded-text {
+  color: $brand-color !important;
+}
+.text-cut {
+  text-decoration: line-through !important;
+  font-size: 0.75rem;
+}
+.color-icon {
+  font-size: 1.4rem;
+}
+.color-icon-selected {
+  background: $brand-color !important;
+  padding-top: 6px;
+}
+.size-icon-selected {
+  color: $brand-color !important;
+}
+.social-sign-in-icon {
+  font-size: 3rem;
+  .facebook {
+    color: $facebook-color !important;
+  }
+  .twitter {
+    color: $twitter-color !important;
+  }
+}
